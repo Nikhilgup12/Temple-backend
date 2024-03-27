@@ -1,0 +1,14 @@
+GET http://localhost:3000/image/ 
+
+### 
+
+GET http://localhost:3000/image/1/
+
+### 
+
+PUT http://localhost:3000/image/20/
+Content-Type: application/json 
+
+{
+    "image_url":"https://templesofindia.org/assets/compressed/cb0693ee0c4416cb426675d865533f66_219.jpg"
+}
